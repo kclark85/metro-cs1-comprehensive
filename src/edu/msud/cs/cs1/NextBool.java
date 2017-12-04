@@ -9,7 +9,6 @@ public class NextBool {
         String inputStr = "1 0 true false True False TRUE FALSE 234 t f T F trUE fALsE";
         Scanner input = new Scanner(inputStr);
 
-        // TODO: write your code here
         try {
             while (input.hasNext()) {
                 if(input.hasNextBoolean())
